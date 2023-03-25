@@ -13,6 +13,7 @@ kecerahan lampu led dan tone buzzer melalui button serta web.
 
 Metode Iot :
 
+
 Pembagian tugas :
 Mengerjakan kodingan serta rangkaiannya bersama-sama, serta saling
 melengkapi dan memperbaiki kodingan akhir. 
@@ -25,3 +26,5 @@ Komponen yang digunakan :
 - Resistor
 - Push button
 - Piezo Buzzer
+
+Board Schematic : 
