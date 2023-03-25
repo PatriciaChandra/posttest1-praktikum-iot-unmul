@@ -45,9 +45,9 @@ int minBuzzer = 100;
 
 //Tampilan Awal WEB
 void handleRoot() {
-  String html = "<h1>PosTest Kel 5 IoT A</h1>";
-  html += "<p>Kecerahan LED : " + String(kecerahan) + "</p>";
-  html += "<p>Frekuensi Buzzer : " + String(freq) + "</p>";
+  String html = "<h1>|  PostTest Kel 5 IoT A  |</h1>";
+  html += "<p>| LED Brightness : " + String(kecerahan) + "</p>";
+  html += "<p>| Buzzer Frequency : " + String(freq) + "</p>";
   html += "<form method='post' action='/cerah'>";
   html += "<label for='pos'>Kecerahan (0-250):</label>";
   html += "<input type='number' id='bright' name='bright' min='0' max='250' value='" + String(kecerahan) + "'>";
@@ -58,14 +58,14 @@ void handleRoot() {
   html += "<input type='number' id='frek' name='frek' min='100' max='2500' value='" + String(freq) + "'>";
   html += "<input type='submit' value='Submit'>";
   html += "</form>";
-  html += "LED ON OFF : ";
+  html += "    LED Enable : ";
   html += "<form  method='post' action='/LEDON' >";
   html += "<button type='submit' value='Submit'>ON</button>";
   html += "</form>";
   html += "<form method='post' action='/LEDOFF' >";
   html += "<button type='submit' value='Submit'>OFF</button>";
   html += "</form>";
-  html += "BUZZER ON OFF : ";
+  html += "    BUZZER Enable : ";
   html += "<form  method='post' action='/BUZZERON' >";
   html += "<button type='submit' value='Submit'>ON</button>";
   html += "</form>";
